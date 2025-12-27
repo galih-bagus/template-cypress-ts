@@ -1,0 +1,26 @@
+{
+   "name": "test-cypress",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.ts",
+   "scripts": {
+      "open": "cypress open",
+      "test": "cypress run",
+      "generate": "allure generate allure-results --clean",
+      "report": "allure open allure-report"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "devDependencies": {
+      "allure-commandline": "^2.36.0",
+      "allure-cypress": "^3.4.3",
+      "cypress": "^15.8.1",
+      "cypress-xpath": "^2.0.1",
+      "typescript": "^5.9.3"
+   },
+   "dependencies": {
+      "dotenv": "^17.2.3",
+      "prettier": "^3.7.4"
+   }
+}
